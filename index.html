@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-6">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Launch Countdown Timer</title>
+</head>
+<body class="bg-darkBlue2 h-screen flex flex-col items-center justify-center">
+  <div class="max-w-6xl mx-auto mb-24">
+    <h1 class="text-white text-xl uppercase text-center tracking-widest mb-12">We're launching soon</h1>
+
+    <div class="countdown flex space-x-6">
+      <div class="flex flex-col items-center justify-center space-y-4">
+        <h2 class="day w-20 md:w-32 bg-darkBlue1 text-center text-softRed text-3xl md:text-6xl py-6 px-4 rounded-md">
+        </h2>
+        <small class="text-gray-400 uppercase text-xs tracking-widest">Days</small>
+      </div>
+      <div class="flex flex-col items-center justify-center space-y-4">
+        <h2 class="hour w-20 md:w-32 bg-darkBlue1 text-center text-softRed text-3xl md:text-6xl py-6 px-4 rounded-md">
+        </h2>
+        <small class="text-gray-400 uppercase text-xs tracking-widest">Hours</small>
+      </div>
+      <div class="flex flex-col items-center justify-center space-y-4">
+        <h2 class="minute w-20 md:w-32 bg-darkBlue1 text-center text-softRed text-3xl md:text-6xl py-6 px-4 rounded-md">
+        </h2>
+        <small class="text-gray-400 uppercase text-xs tracking-widest">Minutes</small>
+      </div>
+      <div class="flex flex-col items-center justify-center space-y-4">
+        <h2 class="second w-20 md:w-32 bg-darkBlue1 text-center text-softRed text-3xl md:text-6xl py-6 px-4 rounded-md">
+        </h2>
+        <small class="text-gray-400 uppercase text-xs tracking-widest">Seconds</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex space-x-6">
+    <a href="facebook"><img src="images/icon-facebook.svg" alt="facebook"></a>
+    <a href="pinterest"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+    <a href="insta"><img src="images/icon-instagram.svg" alt="insta"></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
